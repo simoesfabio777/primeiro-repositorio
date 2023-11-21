@@ -1,0 +1,10 @@
+print('Ola seja bem vindo')
+print()
+nome = input('digite seu nome:')
+idade = int(input('digite sua idade:'))
+peso = float(input('digite seu peso:'))
+altura = float(input('digite sua altura:'))
+caracteres = len(nome)
+nasceu = (2023-idade)
+imc = (peso/altura**2)*10000
+print('Seu nome é ' + nome + ' e tem ' + str(caracteres) + ' caracteres, você tem ' + str(idade) + ' anos e nasceu no ano de ' + str(nasceu) + ' você mede ' + str(altura) + 'cm ' + ' pesa ' + str(peso) + 'Kg ' + ' e seu imc é ' + str(imc))
